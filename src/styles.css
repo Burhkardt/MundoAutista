@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.background {
+  background-image: url("https://as1.ftcdn.net/v2/jpg/01/92/43/12/1000_F_192431268_1NVJrUco4kMnXUgsL4HcWe4kmTLn6TBy.jpg");
+  flex: 1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.teste {
+  margin-bottom: 9000px;
+}

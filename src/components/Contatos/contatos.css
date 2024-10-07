@@ -1,0 +1,12 @@
+.grid {
+  padding: 10px;
+}
+.cubo {
+  align-items: end;
+  text-align: center;
+  background: lightskyblue;
+  flex: 1;
+  justify-content: end;
+  position: fixed;
+  align-content: end;
+}
