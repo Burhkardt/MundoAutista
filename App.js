@@ -28,6 +28,11 @@ export default function App() {
         <Stack.Navigator>
         <Stack.Screen
             options={{ headerShown: false }}
+            name="Init"
+            component={InitialScreen}
+          />
+        <Stack.Screen
+            options={{ headerShown: false }}
             name="Home"
             component={Home}
           />
@@ -36,12 +41,6 @@ export default function App() {
             name="Profile"
             component={Profile}
           />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="Init"
-            component={InitialScreen}
-          />
-          
           <Stack.Screen
             options={{ headerShown: false }}
             name="Com"
