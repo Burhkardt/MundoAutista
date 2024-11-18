@@ -21,9 +21,15 @@
 }
 
 .imagens {
-  max-width: 30%;
+  max-width: 25%;
   flex: 1;
+  border-radius: 10px;
+  object-fit: contain;
 }
 .boximagem img {
-  padding: 2rem;
+  padding: 1.5rem;
+}
+.boximagem {
+  background-color: color-mix(in srgb, transparent, white 85%);
+  border-radius: 25px;
 }
